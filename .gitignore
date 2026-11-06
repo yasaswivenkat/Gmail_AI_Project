@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Credentials & Sensitive Config
+.env
+credentials.json
+token.json
+client_secret*.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
